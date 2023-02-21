@@ -1,0 +1,7 @@
+{
+  "regions": ["fra1"],
+  "ignoreCommand": "git log -1 --pretty=oneline --abbrev-commit | grep -w \"\\[skip ci\\]\" && exit 0 || exit 1",
+  "github": {
+    "silent": true
+  }
+}
